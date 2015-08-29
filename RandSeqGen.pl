@@ -2,6 +2,9 @@
 # written by E Meyer, eli.meyer@science.oregonstate.edu
 # distributed without any guarantees or restrictions
 
+# now I've modified the script to add some comments.
+# do they show up??
+
 $scriptname=$0; $scriptname =~ s/.+\///g;
 if ($#ARGV != 4 || $ARGV[0] eq "-h") 
 	{
